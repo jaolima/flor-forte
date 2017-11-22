@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">      
+	<title></title>
+	<!--Import Google Icons Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Materialize CSS-->
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<link rel="stylesheet" href="css/google-fonts.css">
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+	<!--NAVBAR-->
+<header class="navbar-fixed">
+	<nav class="black">
+		<div class="nav-wrapper">
+			<!--LOGO-->
+			<a href="javascript:void(0)" class="brand-logo center">
+				<img src="img/logo.png" alt="" class=" mini-perfil">
+			</a>
+			<!--MENU HAMBURGUER-->
+			<a href='#' data-activates="menu-mobile" class="button-collapse"><i class="material-icons">menu</i>
+			</a>
+			<!--Lista de paginas-->	
+				<ul id="nav-mobile" class="left hide-on-med-and-down">
+				  <li class="active"><a href="vasos.html">Vasos</a></li>
+				  <li class="active"><a href="terras.html">Terras</a></li>
+				  <li class="active"><a href="flores.html">Flores</a></li>
+				</ul>
+			<!--Lista de paginas no hamburguer-->		
+				<ul id="menu-mobile" class="side-nav">
+				  <li class="active"><a href="vasos.html">Vasos</a></li>
+				  <li class="active"><a href="terras.html">Terras</a></li>
+				  <li class="active"><a href="flores.html">Flores</a></li>
+				</ul>
+			<!--CARRINHO	
+        	<i class="material-icons right">shopping_cart</i>-->	
+		</div>
+	</nav>
+</header>
+
+
+   <!--CARD Terra-->
+	<div class="row push-m3">
+     <div class="col s4 m3">
+      <div class="card">
+        <div class="card-image">
+          <img src="img/terra.jpg">
+          <span class="card-title">Terra</span>
+          <a href='compra.html' class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add_shopping_cart</i></a>
+        </div>
+        <div class="card-content">
+          <p>Terra feita de hummus de minhoca.</p>
+          <p>-5kg</p>
+          <p>-marca</p>
+          <h2>R$10,00</h2>
+        </div>
+      </div>
+    </div>
+
+
+<!--JQUERY-->
+<script src="jquery-3.2.1.min.js"></script>
+<!--Materialize JS-->
+<script src="js/materialize.min.js"></script>
+<script src="js/app.js"></script>
+<!--Parallax-->
+<script>$(document).ready(function(){
+      $('.parallax').parallax();
+    });
+</script>
+
+</body>	
+</html>

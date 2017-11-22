@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">      
+	<title></title>
+	<!--Import Google Icons Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Materialize CSS-->
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<link rel="stylesheet" href="css/google-fonts.css">
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+	<!--NAVBAR-->
+<header class="navbar-fixed">
+	<nav class="black">
+		<div class="nav-wrapper">
+			<!--LOGO-->
+			<a href="javascript:void(0)" class="brand-logo center">
+				<img src="img/logo.png" alt="" class=" mini-perfil">
+			</a>
+			<!--MENU HAMBURGUER-->
+			<a href='#' data-activates="menu-mobile" class="button-collapse"><i class="material-icons">menu</i>
+			</a>
+			<!--Lista de paginas-->	
+				<ul id="nav-mobile" class="left hide-on-med-and-down">
+				  <li class="active"><a href="vasos.html">Vasos</a></li>
+				  <li class="active"><a href="terra.html">Terras</a></li>
+				  <li class="active"><a href="flores.html">Flores</a></li>
+				</ul>
+			<!--Lista de paginas no hamburguer-->		
+				<ul id="menu-mobile" class="side-nav">
+				  <li class="active"><a href="vasos.html">Vasos</a></li>
+				  <li class="active"><a href="terra.html">Terras</a></li>
+				  <li class="active"><a href="flores.html">Flores</a></li>
+				</ul>
+			<!--CARRINHO	
+        	<i class="material-icons right">shopping_cart</i>-->	
+		</div>
+	</nav>
+</header>
+
+<!--Parallax-->
+      		<!--<div class="parallax"><img src="img/parallax.jpg" alt="Unsplashed background img 1">
+      		</div>-->
+   <div class="parallax-container"><img src="img/parallax.jpg" alt="Unsplashed background img 1">
+   </div>
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">local_florist</i></h2>
+            <h5 class="center">Porque ter uma planta?</h5>
+
+            <p class="light">-Ajudam a respirar melhor</p>
+            <p class="light">-Deixam o ar mais úmido</p>
+            <p class="light">-Ajudam no processo de cura de doenças</p>
+            <p class="light">-Purificam o ar</p>
+
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">sentiment_very_satisfied</i></h2>
+            <h5 class="center">O que o Feng Shui diz</h5>
+
+            <p class="light">A filosofia oriental Feng Shui diz que plantas são sinônimo de vida, crescimento e abundância. Cada espécie traz vantagens específicas.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">filter_vintage</i></h2>
+            <h5 class="center">Precisa de mais motivos?</h5>
+
+            <p class="light">Além de trazer armonia e bem-estar, todos esse produtos são de fácil acesso, entre em contato!!!</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!--END PARALLAX-->
+
+
+
+	<!--CARD Terra-->
+	<div class="row push-m3">
+     <div class="col s4 m3">
+      <div class="card">
+        <div class="card-image">
+          <img src="img/terra.jpg">
+          <span class="card-title">Terra</span>
+          <a href='terra.html' class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">thumb_up</i></a>
+        </div>
+        <div class="card-content">
+          <p>Terra de qualidade</p>
+        </div>  
+
+      </div>
+    </div>
+
+	<!--CARD Flores-->
+	  <div class="col s6 m5">
+	      <div class="card">
+	        <div class="card-image">
+	          <img src="img/flores.jpg">
+	          <span class="card-title">Flores</span>
+	          <a href='flores.html' class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">thumb_up</i></a>
+	        </div>
+	        <div class="card-content">
+	          <p>"onde estiver seja lá como for,tenha fé porque até no lixão nasce flor"</p>
+	        </div>
+	      </div>
+	    </div>
+
+ 	<!--CARD Vasos-->
+		<div class="col s10 m4">
+	      <div class="card">
+	        <div class="card-image">
+	          <img src="img/vasos.jpg">
+	          <span class="card-title">Vasos</span>
+	          <a href='compra.html' class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add_shopping_cart</i></a>
+	        </div>
+	        <div class="card-content">
+	          <p>"Esses vasos vão alegrar sua vida"</p>
+	        </div>
+	      </div>
+	    </div>
+</div>
+
+
+
+	<!--Footer-->
+		<footer class="page-footer black">
+          <div class="container">
+            <div class="row">
+              
+              <div class="col l6 s12">
+                <h5 class="white-text">Deixe seu e-mail</h5>      				
+               <!--Campo pra botar nome-->
+                <input type="text" id="nome" placeholder="como gostaria de ser chamado?">
+                  <!--Campo pra botar email-->
+                    <input type="text" id="email" placeholder="seu email">
+                   <!--Botão enviar email-->
+                   <i class="material-icons right">mail</i>
+			  </div>
+
+              <div class="col l2 offset-l2 s6">
+                <h5 class="white-text">Siga-nos nas redes sociais</h5>
+                <ul>
+                <!--Link Instagram-->
+                  <li><a class="active" href="https://www.instagram.com/?hl=pt-br"><img src="img/instagram.png"  width="40" height="40" /></a></li>
+                 <!--Link Facebook-->
+                   <li><a class="active" href="https://www.facebook.com/"><img src="img/facebook.png"  width="45" height="45" /></a></li>
+                 <!--Link youtube-->
+                  <li><a class="active" href="https://www.youtube.com/"><img src="img/youtube.png"  width="45" height="45" /></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2017 JL-Copyright
+            </div>
+          </div>
+        </footer>		
+
+<!--JQUERY-->
+<script src="jquery-3.2.1.min.js"></script>
+<!--Materialize JS-->
+<script src="js/materialize.min.js"></script>
+<script src="js/app.js"></script>
+<!--Parallax-->
+<script>$(document).ready(function(){
+      $('.parallax').parallax();
+    });
+</script>
+
+</body>	
+</html>
